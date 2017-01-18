@@ -8,7 +8,7 @@ import { SenseService } from './sense.service'
   providers: [SenseService]
 })
 export class AppComponent implements OnInit {
-  title = 'Branch Projects';
+  title = 'Branch Project List';
   qixSchema;
   projects: Array<any>;
 
