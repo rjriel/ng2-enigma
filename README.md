@@ -2,6 +2,8 @@
 
 Have you tried out [enigma.js](https://github.com/qlik-oss/enigma.js), Qliks javascript library released under the [Qlik Open Source Software](https://github.com/qlik-oss) initiative? How about in Angular 2? If not, this example will do nicely.
 
+A working example of the project can be seen at https://rjriel.github.io/ng2-enigma/
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
 ## Usage
