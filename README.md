@@ -1,31 +1,31 @@
-# EnigmaTest
+# ng2-enigma
+
+Have you tried out [enigma.js](https://github.com/qlik-oss/enigma.js), Qliks javascript library released under the [Qlik Open Source Software](https://github.com/qlik-oss) initiative? How about in Angular 2? If not, this example will do nicely.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Usage
 
-## Code scaffolding
+This project was created with the Angular CLI, which you will need in order to build and run. Information on installing the Angular CLI can be found [here](https://github.com/angular/angular-cli#installation).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+Once that's done, you'll have to follow these steps:
 
-## Build
+1. clone the repository
+2. run `npm install`
+3. create a `src/config.json` file with the following structure:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+  ```
+  {
+    "host": "<the sense host>",
+    "prefix": "<the virtual proxy>",
+    "app": "<the app to connect to>"
+  }
+  ```
+  
+4. run `ng serve`
 
-## Running unit tests
+`ng serve` will build the project and run it on your system at `http://localhost:4200`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## IMPORTANT
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The hypercube and html in this example is built for the Qlik Branch app that the [Qlik Branch](http://branch.qlik.com) website uses. If you want to get the example working with other data, you will need to modify the hypercube and the html.
