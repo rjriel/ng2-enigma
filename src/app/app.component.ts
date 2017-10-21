@@ -18,12 +18,11 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.senseService.connect()
-      .then(() => {
-      this.senseService.getProjects()
-        .then(projects => {
-          this.projects = projects
-        })
+      .then(() => this.senseService.getProjects())
+      .then(projects => {
+        this.projects = projects
       })
+      .catch(err => console.error(err))
   }
 
 }

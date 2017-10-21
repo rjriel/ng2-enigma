@@ -35,3 +35,8 @@ Thumbs.db
 
 #Sense config
 /src/config.json
+
+private.key
+server.key
+server.crt
+config.js
