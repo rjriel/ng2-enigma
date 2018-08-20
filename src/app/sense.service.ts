@@ -12,7 +12,7 @@ export class SenseService {
     session: {
       host: envconfig.host,
       prefix: envconfig.prefix,
-      unsecure: false
+      secure: true
     }
   }
   app: any
