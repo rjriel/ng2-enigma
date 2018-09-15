@@ -30,4 +30,4 @@ Once that's done, you'll have to follow these steps:
 
 ## IMPORTANT
 
-The hypercube and html in this example is built for the Qlik Branch app that the [Qlik Branch](http://branch.qlik.com) website uses. If you want to get the example working with other data, you will need to modify the hypercube and the html.
+The hypercube and html in this example is built for the Qlik Branch app that the [Qlik Branch](https://developer.qlik.com) website uses. If you want to get the example working with other data, you will need to modify the hypercube and the html.
